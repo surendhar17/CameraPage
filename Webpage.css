@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* background image */
+
+body{
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* top nav options */
+
+.top ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+li{
+    display: inline-block;
+}
+
+.top{
+    display:flex;
+    justify-content:space-around ;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    height: 70px;
+}
+
+/* Coding Lab */
+
+.codinglab{
+    padding-right: 15%;
+    font-size:35px ;   
+}
+
+.codinglab a{
+    padding-bottom: 50%;
+}
+
+/* Home About Services Contact Feedback */
+
+.topnav ul{
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px ;
+    font-weight: 500;
+    
+}
+
+.topnav ul a:hover{
+    transition: 0.5s;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.topnav ul a{
+    padding: 7px 17px 7px 17px;
+    border-radius: 5px;
+}
+
+/* content */
+
+.content{
+    color: whitesmoke;
+    font-size:55px ;
+    display: flex;
+    justify-content: center; 
+    margin-top: 12%;
+}
+
+/* Learnmore Subcribe */
+
+.centerbuttons a{
+    color: whitesmoke;   
+    text-decoration: none;
+}
+
+.centerbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top:2% ;
+}
+
+
+.learnmore a{
+    padding: 8px 25px;
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+}
+
+.learnmore a:hover{   
+    transition: 0.5s;
+    color: black;
+    background-color: whitesmoke;
+    
+}
+
+
+.subscribe a{
+    color: black;
+    border: 3px solid whitesmoke;
+    padding: 8px 25px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    
+}
+
+.subscribe a:hover{
+    transition: 0.5s;
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+
